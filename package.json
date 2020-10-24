@@ -1,0 +1,28 @@
+{
+  "name": "timeout-loop",
+  "version": "1.0.0",
+  "description": "Calls a function for a specified number of times.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrehpiva/timeout-loop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrehpiva/timeout-loop/issues"
+  },
+  "homepage": "https://github.com/alexandrehpiva/timeout-loop#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.1",
+    "ts-jest": "^26.4.2",
+    "typescript": "^4.0.3"
+  }
+}
