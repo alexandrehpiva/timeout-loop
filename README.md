@@ -6,9 +6,13 @@ Calls a function for a specified number of times
 yarn add timeout-loop
 ```
 
+## Dist target
+Since 1.2.0 version, the project is released in ES6 for compatibility (previous versions were targeted to ESNext).
+
 ## Examples
 
 The nicer thing is that it can be awaited:
+
 
 ```js
 import timeoutLoop from 'timeout-loop'
@@ -17,16 +21,18 @@ let loopCounter = 0;
 
 (async () => {
 
+  // Executes the callback function every 1 second
   await timeoutLoop(() => {
     loopCounter += 1;
+    console.log(`Call number ${loopCounter}.`)
   }, 1000, 3);
 
-  console.log(loopCounter) // Logs 3 after 3 seconds
+  console.log('Finish') // Logs 'Finish' after 3 seconds
 
 })
 ```
 
-It can also be used in unit tests (Jest). For example, I used this lib to test one of my projects: exec-latest
+It can also be used in unit tests (Jest). For example, I used this lib to test one of my projects: [exec-latest](https://github.com/alexandrehpiva/exec-latest)
 
 ```js
 import timeoutLoop from 'timeout-loop'
