@@ -30,6 +30,8 @@
     "loop",
     "call",
     "times",
-    "amount"
+    "amount",
+    "async",
+    "promise"
   ]
 }

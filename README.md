@@ -1,6 +1,9 @@
 # timeout-loop
 Calls a function for a specified number of times
 
+![npm](https://img.shields.io/npm/dy/timeout-loop)
+
+
 # Installation
 ```
 yarn add timeout-loop
