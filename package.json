@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "yarn run-s build test",
-    "build": "tsc",
+    "prepare": "tsc",
+    "build": "yarn run-s test prepare",
     "test": "jest --config jestconfig.json"
   },
   "repository": {
