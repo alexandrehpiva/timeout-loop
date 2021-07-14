@@ -1,7 +1,7 @@
+[![npm](https://img.shields.io/npm/v/timeout-loop.svg)](https://www.npmjs.com/package/timeout-loop) [![npm](https://img.shields.io/npm/dy/timeout-loop)](https://www.npmjs.com/package/timeout-loop)
+
 # timeout-loop
 Calls a function for a specified number of times
-
-[![npm](https://img.shields.io/npm/v/timeout-loop.svg)](https://www.npmjs.com/package/timeout-loop) ![npm](https://img.shields.io/npm/dy/timeout-loop)
 
 
 # Installation
